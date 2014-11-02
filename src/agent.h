@@ -1,9 +1,6 @@
 #ifndef AGENT_H
 #define AGENT_H
 
-#include <set>
-#include <queue>
-#include <stack>
 #include <iostream>
 #include <fstream>
 #include <sstream>
@@ -20,6 +17,7 @@
 #define GREEDY 'g'
 #define ASTAR 'a'
 
+//represents an intelligent agent
 class agent {
 public:
 	agent() {}
